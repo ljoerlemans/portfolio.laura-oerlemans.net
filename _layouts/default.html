@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Laura Oerlemans &raquo; {{ page.title }}</title>
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="css/print.css" type="text/css" media="print" /> 
+	<!--[if IE]>
+	  <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection" />
+	<![endif]-->
+    <link type="text/css" rel="stylesheet" href="/css/laura.css" charset="utf-8" media="all" />
+  </head>
+  <body>
+	<div class="container">
+	    
+		<div class="span-24" id="header">
+		    <div class="span-19">
+		        <img src="/images/logo.png" align="right" />
+		    </div>
+		    <div class="span-4 append-1 last">
+		        <img src="/images/get_resume.png" align="right" />
+		    </div>
+		</div>
+		
+		<div class="span-24" id="main">
+		    {{content}}
+		</div>
+		
+		<div class="span-22 prepend-1 append-1" id="footer">
+		    Copyright © 2009 Laura Oerlemans. All Rights Reserved.
+		</div>
+	</div>
+	
+    {% include analytics.html %}
+    
+  </body>
+</html>

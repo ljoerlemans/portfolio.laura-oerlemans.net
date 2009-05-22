@@ -1,0 +1,60 @@
+/* Body */
+
+body {
+	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif; 
+	background-color: #ffffff; color: #333;	
+}
+
+a {
+	color: #08c;
+	text-decoration: none;
+}
+a:hover {
+	color: #08c;
+	text-decoration: underline;
+}
+
+div.container {
+	background-color: #ffffff;
+}
+
+ul {
+	list-style-type: square;
+	margin-left: 25px;
+}
+
+img.appstore {
+	width: 150px;
+	display: block;
+	margin: 10px auto;
+	border: none;
+}
+
+/* Header */
+
+#header {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #969696;
+}
+#header h1 {
+	display: none;
+}
+
+/* Main */
+
+#main {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* Footer */
+
+#footer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 10px;
+	text-align: center;
+	color: #7f7f7f;
+}
