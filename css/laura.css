@@ -2,20 +2,17 @@
 
 body {
 	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif; 
-	background-color: #ffffff; color: #333;	
+	background-color: #000000; 
+	color: #f0f0f0;	
 }
 
 a {
-	color: #08c;
+	color: #9DAE60;
 	text-decoration: none;
 }
 a:hover {
-	color: #08c;
+	color: #9DAE60;
 	text-decoration: underline;
-}
-
-div.container {
-	background-color: #ffffff;
 }
 
 ul {
@@ -23,23 +20,107 @@ ul {
 	margin-left: 25px;
 }
 
-img.appstore {
-	width: 150px;
-	display: block;
-	margin: 10px auto;
-	border: none;
-}
-
 /* Header */
 
 #header {
 	margin-top: 30px;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid #969696;
 }
 #header h1 {
-	display: none;
+	font-size: 360%;
+	margin-top: 17px;
+	margin-bottom: 3px;
+	color: #ffffff;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: lighter;
+}
+
+#header h1 a, #header h1 a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+#header span {
+	color: #AAA;
+	font-size: 110%;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-left: 1px;
+}
+
+#download_cv {
+	position: relative;
+	background-color: #d7ff8a;
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	padding: 7px;
+	
+	/* Do rounding (native in Firefox and Safari) */
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+
+}
+
+#download_cv a {
+	text-decoration: none;
+	color: #1E2E00;
+	font-size: 140%;
+}
+
+.project_teaser {
+	padding-bottom: 15px;	
+}
+
+.project_feature {
+	padding-bottom: 30px;
+}
+
+.project_teaser .project_photo,
+.project_feature .project_photo {
+	background-color: #191919;
+	/* Do rounding (native in Firefox and Safari) */
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 10px 10px 5px 10px;
+}
+
+.project_teaser .project_description,
+.project_feature .project_description {
+	padding: 12px 5px 5px 10px;
+}
+
+.project_teaser .project_description .readmore,
+.project_feature .project_description .readmore {
+	text-align: right;	
+	padding: 2px 10px;
+	
+	
+	/* Do rounding (native in Firefox and Safari) */
+	background-color: #191919;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.project_teaser h2,
+.project_feature h2 {
+	margin-bottom: 12px;
+	color: #ffffff;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: lighter;
+}
+
+.project_feature h2 {
+	margin-top: 15px;
+	font-size:  260%;
+}
+
+.project_teaser p,
+.project_feature p {
+	color: #aaa;
+	margin-bottom: 8px;
 }
 
 /* Main */
