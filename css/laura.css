@@ -52,7 +52,7 @@ ul {
 
 #download_cv {
 	position: relative;
-	background-color: #c0e0ff;
+	background-color: #08b;
 	display: block;
 	text-align: center;
 	margin-top: 40px;
@@ -66,7 +66,7 @@ ul {
 
 #download_cv a {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	font-size: 140%;
 }
 
