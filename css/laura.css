@@ -7,11 +7,11 @@ body {
 }
 
 a {
-	color: #9DAE60;
+	color: #08b;
 	text-decoration: none;
 }
 a:hover {
-	color: #9DAE60;
+	color: #08b;
 	text-decoration: underline;
 }
 
@@ -96,12 +96,6 @@ ul {
 .project_feature .project_description .readmore {
 	text-align: right;	
 	padding: 2px 10px;
-	
-	
-	/* Do rounding (native in Firefox and Safari) */
-	background-color: #191919;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
 }
 
 .project_teaser h2,
@@ -121,6 +115,27 @@ ul {
 .project_feature p {
 	color: #aaa;
 	margin-bottom: 8px;
+}
+
+.project_detail_photos {
+	padding-bottom: 25px;
+}
+
+.project_detail_photos .photo {
+	background-color: #191919;
+	/* Do rounding (native in Firefox and Safari) */
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 10px 10px 5px 10px;
+}
+
+.project_description h1 {
+	color: #ffffff;
+	font-size: 260%;
+}
+
+.project_description p {
+	text-align: justify;
 }
 
 /* Main */
