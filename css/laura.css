@@ -18,6 +18,7 @@ a:hover {
 ul {
 	list-style-type: square;
 	margin-left: 25px;
+	text-align: justify;
 }
 
 /* Header */
@@ -30,7 +31,7 @@ ul {
 }
 #header h1 {
 	font-size: 360%;
-	margin-top: 17px;
+	margin-top: 32px;
 	margin-bottom: 3px;
 	color: #ffffff;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
@@ -61,7 +62,6 @@ ul {
 	/* Do rounding (native in Firefox and Safari) */
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
-
 }
 
 #download_cv a {
@@ -70,8 +70,16 @@ ul {
 	font-size: 140%;
 }
 
+div#linkedin {
+	margin: 8px 0 0 32px;
+}
+
 .project_teaser {
 	padding-bottom: 15px;	
+}
+
+#highrise_teaser {
+	padding-bottom: 23px;
 }
 
 .project_feature {
@@ -104,6 +112,13 @@ ul {
 	color: #ffffff;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-weight: lighter;
+	line-height: 35px;
+}
+
+.project_teaser h2 a,
+.project_feature h2 a {
+	color: #fff;
+	text-decoration: none;
 }
 
 .project_feature h2 {
@@ -132,6 +147,9 @@ ul {
 .project_description h1 {
 	color: #ffffff;
 	font-size: 260%;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: lighter;
+	line-height: 35px;	
 }
 
 .project_description p {
