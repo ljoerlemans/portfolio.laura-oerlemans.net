@@ -7,7 +7,7 @@ desc 'Publish website to RubyFest.nl'
 task :website_upload do
   local_dir  = '_site'
   user       = 'laura'
-  host       = 'ariejan.net'
+  host       = 'starbuck.ariejan.net'
   remote_dir = '/var/www/vhosts/laura-oerlemans.net/portfolio'
   sh %{ssh #{user}@#{host} "rm -rf #{remote_dir}/*"}
   sh %{scp -r #{local_dir}/* #{user}@#{host}:#{remote_dir}}
